@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<script type="text/javascript" src="/js/base/jquery.js"></script>
-<script type="text/javascript" src="/js/base/requirejs/require.js"></script>
-<script type="text/javascript" src="/js/init.js"></script>
+<script type="text/javascript" src="./js/base/jquery.js"></script>
+<script type="text/javascript" src="./js/base/requirejs/require.js"></script>
+<script type="text/javascript" src="./js/init.js"></script>
 </head>
 
 <body>
