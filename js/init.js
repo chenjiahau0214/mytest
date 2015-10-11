@@ -1,5 +1,5 @@
 var requirejs = window.requirejs.config({
-    baseUrl: './js',
+    baseUrl: '../js',
     context: 'main',
     paths: {
        "jquery": "base/jquery"
