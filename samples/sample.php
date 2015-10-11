@@ -16,8 +16,9 @@
 </html>
 
 <script>
-  requirejs(['module/sample01'], function(output) {
-   	$("#agc").html(output);
+  requirejs(['module/sample'], function(sample) {
+    console.log(sample);
+   	$("#agc").html(sample);
   });
 
 </script>
