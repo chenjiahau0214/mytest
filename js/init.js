@@ -1,8 +1,18 @@
+var objCommonFn = {
+    getRootUrl: function() {
+        var path = window.location.pathname,
+            aryPath = path.split('/');
+
+        return aryPath[1];
+    }
+};
+
 var requirejs = window.requirejs.config({
-    baseUrl: '../js',
+    baseUrl: './js/',
     context: 'main',
     paths: {
         "jquery": "base/jquery"
-      , "Handlebars": "base/handlebars"
+      , "lodash": "base/lodash"
+      , "Handlebars": "/base/handlebars"
 　　}
 });
